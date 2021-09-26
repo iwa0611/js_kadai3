@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="js_kadai3.css" type="text/css" />
+  <title>リアルタイムフィルター</title>
+</head>
+<body>
+  <h1>リアルタイムフィルター</h1>
+  <p>入力した文字を含まない要素は非表示となります。</p>
+  <input type="text" id="text"  onkeyup="keyUp()">
+   <div class="box">
+     <div class="box-text box0">
+      <img src="" alt="車">
+      <p>キーワード：</p>
+      <p id="kuruma" class="key_word">
+        くるま　車　kuruma
+      </p>
+     </div>
+     <div class="box-text box1">
+      <img src="" alt="青空">
+      <p>キーワード：</p>
+      <p id="aozora" class="key_word">
+         あおぞら　青空　aozora
+      </p>
+     </div>
+    </div>
+   <div class="box">
+     <div class="box-text box2">
+      <img src="" alt="花">
+      <p>キーワード：</p>
+      <p id="hana" class="key_word">
+         はな　花　hana
+      </p>
+     </div>
+     <div class="box-text box3">
+      <img src="" alt="馬">
+      <p>キーワード：</p>
+      <p id="uma" class="key_word">
+         うま　馬　uma
+      </p>
+     </div>  
+    </div>
+<script type="text/javascript" src="js_kadai3.1.js"></script>  
+</body>
+</html>
